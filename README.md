@@ -24,7 +24,7 @@ This project focuses on core backend concepts such as:
   - Response time (latency)
   - Last checked timestamp
 
-## 📊 Performance History
+## Performance History
 - Stores every check in `device_log`
 - Latency visualization using Chart.js
 - Detailed timestamped history table
