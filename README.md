@@ -2,7 +2,7 @@
 
 A lightweight **network monitoring system** built with **Spring Boot + MySQL** that periodically checks device availability, logs performance history, and provides a clean web dashboard for monitoring.
 
-This project demonstrates backend fundamentals with a production mindset:
+This project focuses on core backend concepts such as:
 
 - Scheduled background jobs
 - REST API design
@@ -49,7 +49,11 @@ This project demonstrates backend fundamentals with a production mindset:
 4. Status & latency are stored in `device_log`.
 5. After 3 consecutive failures → alert is triggered.
 
-Layered structure:
+### Layered Architecture
+
+Controller → Service → Repository → Database
+
+
 
 
 ---
