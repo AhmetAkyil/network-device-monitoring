@@ -1,4 +1,4 @@
-# 🖥 Network Device Monitoring Dashboard
+# Network Device Monitoring Dashboard
 
 A lightweight **network monitoring system** built with **Spring Boot + MySQL** that periodically checks device availability, logs performance history, and provides a clean web dashboard for monitoring.
 
@@ -14,9 +14,9 @@ This project focuses on core backend concepts such as:
 
 ---
 
-# 🚀 Features
+# Features
 
-## ✅ Device Monitoring
+## Device Monitoring
 - Add devices via REST API
 - Automatic health checks every 30 seconds
 - Tracks:
@@ -29,11 +29,11 @@ This project focuses on core backend concepts such as:
 - Latency visualization using Chart.js
 - Detailed timestamped history table
 
-## 🚨 Alert Mechanism
+## Alert Mechanism
 - Triggers alert after **3 consecutive DOWN states**
 - Uses structured SLF4J logging
 
-## 🔐 Validation & Error Handling
+## Validation & Error Handling
 - Jakarta Validation (`@NotBlank`, `@Pattern`)
 - IPv4 format validation
 - Clean JSON validation responses
@@ -41,7 +41,7 @@ This project focuses on core backend concepts such as:
 
 ---
 
-# 🏗 Architecture Overview
+# Architecture Overview
 
 1. Devices are stored in `network_device`.
 2. A Spring `@Scheduled` task runs every 30 seconds.
@@ -70,7 +70,7 @@ Database
 
 ---
 
-# 🛠 Tech Stack
+# Tech Stack
 
 - Java 17+
 - Spring Boot
@@ -84,7 +84,7 @@ Database
 
 ---
 
-# 🖥 Screenshots
+# Screenshots
 
 ## 🏠 Dashboard
 
