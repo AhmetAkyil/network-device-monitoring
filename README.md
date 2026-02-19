@@ -49,9 +49,21 @@ This project focuses on core backend concepts such as:
 4. Status & latency are stored in `device_log`.
 5. After 3 consecutive failures → alert is triggered.
 
+---
+
 ### Layered Architecture
 
-Controller → Service → Repository → Database
+```
+Client Request
+     ↓
+Controller
+     ↓
+Service
+     ↓
+Repository
+     ↓
+Database
+```
 
 
 
